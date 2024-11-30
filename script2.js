@@ -60,10 +60,11 @@ function calculateScore() {
 
     if (percentage < 75) {
         document.getElementById("score").textContent =
-            "نتيجتكِ: " + percentage + "%. أنتِ ذكية، حاولي تحسين أدائكِ بالمزيد من التدريب!";
+            "نتيجتكِ: " + percentage + "%. معلمتك استاذة نجوى حزينة، تتمنى لك مراجعة أن تراجعي جدول الضرب 🥺!";
     } else {
         document.getElementById("score").textContent =
-            "نتيجتكِ: " + percentage + "%. ممتازة جدًا! أنتِ متفوقة!!";
+            "نتيجتكِ: " + percentage + "%. معلمتك استاذة نجوى فخورة بكِ 👍🏻
+ أنتِ متفوقة!!";
     }
 
     setTimeout(resetQuiz, 5000); // Wait for 5 seconds before restarting
