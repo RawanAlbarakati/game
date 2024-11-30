@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7e9f5; 
+    background-image: url('powerpoint-math-for-kids-background-design-template-9c7101e6f62f51589b70148f650f4f6e_screen.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    direction: rtl; 
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quiz-box {
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    width: 100%; 
+    text-align: center;
+}
+
+.question {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between; /* Align button and input field */
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#answer {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: right; /* Align text input to the right */
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#submit-btn:hover {
+    background-color: #444444; 
+}
+
+.feedback {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feedback.correct {
+    color: green;
+}
+
+.feedback.incorrect {
+    color: red;
+}
+
+#celebration-img {
+    display: none; 
+    margin-top: 10px;
+    max-width: 150px;
+    margin: 0 auto;
+    height: auto; 
+}
+
+.score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0066cc;
+    margin-top: 20px;
+}
