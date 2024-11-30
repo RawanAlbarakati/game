@@ -12,8 +12,8 @@ function newQuestion() {
         return; 
     }
 
-    var num1 = Math.floor(Math.random() * (13 - 3) + 3); 
-    var num2 = Math.floor(Math.random() * (13 - 3) + 3);
+    var num1 = Math.floor(Math.random() * (12 - 3) + 2); 
+    var num2 = Math.floor(Math.random() * (12 - 3) + 2);
     answer = num1 * num2;
 
     document.getElementById("question").textContent = "ما هو حاصل ضرب " + num1 + " في " + num2 + "؟";
